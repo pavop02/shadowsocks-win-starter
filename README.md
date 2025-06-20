@@ -26,7 +26,7 @@ shadowsocks
 
 1. Download Shadowsocks-Rust for Windows (MSVC version):  
    [https://github.com/shadowsocks/shadowsocks-rust/releases](https://github.com/shadowsocks/shadowsocks-rust/releases)  
-2. Place `sslocal.exe`, `proxy.bat` and 'config.json' in the same folder  
+2. Place `sslocal.exe`, `proxy.bat` and `config.json` in the same folder  
 3. Obtain your Outline Access Key — it should look like: 
    https://example.com/en/abc123/xyz456#abc123  
 4. Edit it to start with `https://` instead of `ssconf://`:  

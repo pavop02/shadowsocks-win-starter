@@ -1,6 +1,8 @@
 # Shadowsocks Windows Starter
 
-A simple and reliable way to run Outline VPN (shadowsocks) on Windows with just a double-click without heavy, complicated GUI clients. No installations are needed
+A simple and reliable way to launch Outline VPN (shadowsocks) on Windows with just a double-click. 
+
+No heavy, complicated GUI clients or any installations are needed.
 
 ## What it does
 

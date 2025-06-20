@@ -22,19 +22,19 @@ shadowsocks/
 
 1. Download Shadowsocks-Rust for Windows (MSVC version):  
    [https://github.com/shadowsocks/shadowsocks-rust/releases](https://github.com/shadowsocks/shadowsocks-rust/releases)  
-2. Place `sslocal.exe` and `proxy.bat` in the same folder  
-3. Obtain your Outline Access Key (starts with `ssconf://...`)  
-4. Edit it to start with `https://` instead of `ssconf://`, e.g.:  
+2. Place `sslocal.exe`, `proxy.bat` and 'config.json' in the same folder  
+3. Obtain your Outline Access Key — it should look like: 
+   https://example.com/en/abc123/xyz456#abc123  
+4. Edit it to start with `https://` instead of `ssconf://`:  
    `https://example.com/en/abc123/xyz456#abc123`  
-5. Open the link in a browser — it shows your VPN config JSON  
-6. Remove the `"prefix":` line from the config  
-7. Save the result as `config.json` in the same folder  
-8. Run `proxy.bat` (preferably as Administrator)
-
-## Keywords
-
-shadowsocks, shadowsocks-rust, sslocal, vpn, proxy, windows, batch, batch-script, batch-file, vpn-client, script, starter, launcher
+5. Open the link in your browser — you’ll see a VPN config in JSON format 
+6. Fill the corresponding lines in the 'config.json' with info from your browser (the "prefix" field is not needed). Save the file. 
+7. Run `proxy.bat` (preferably as Administrator)
 
 ## Author:
 
 by [@pavop02](https://github.com/pavop02)
+
+## Keywords
+
+shadowsocks, shadowsocks-rust, sslocal, vpn, proxy, windows, batch, batch-script, batch-file, vpn-client, script, starter, launcher

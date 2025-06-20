@@ -12,7 +12,6 @@ A simple and reliable way to run Outline VPN (shadowsocks) on Windows with just 
 ## Required file structure
 
 shadowsocks/
-
 ├── proxy.bat
 
 ├── config.json

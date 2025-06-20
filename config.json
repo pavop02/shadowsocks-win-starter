@@ -1,0 +1,8 @@
+{
+  "server": "00.00.00.00",
+  "server_port": 00000,
+  "password": "eXamPLe12eXamPLe12eXamPLe12eXamPLe12eXam",
+  "method": "chacha20-ietf-poly1305",
+  "local_address": "127.0.0.1",
+  "local_port": 1080
+}

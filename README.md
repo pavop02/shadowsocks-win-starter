@@ -1,8 +1,6 @@
 # Shadowsocks Windows Starter
 
-A simple and reliable way to run Outline VPN (shadowsocks) on Windows with just a double-click without heavy and complicated GUI clients.
-
-This lightweight .bat script launches `sslocal.exe` and enables the system proxy automatically until the console window is closed.
+A simple and reliable way to run Outline VPN (shadowsocks) on Windows with just a double-click without heavy, complicated GUI clients. No installations are needed
 
 ## What it does
 

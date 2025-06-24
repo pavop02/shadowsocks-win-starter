@@ -7,8 +7,11 @@ No heavy, complicated GUI clients or any installations are needed.
 ## What it does
 
 • Starts `sslocal.exe`
+
 • Enables system-wide proxy on `127.0.0.1:1080`  
+
 • Keeps the proxy active while the cmd window is open  
+
 • On key press, disables proxy and terminates `sslocal.exe`
 
 ## Required file structure
